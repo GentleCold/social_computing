@@ -20,11 +20,11 @@ def to_ndarray(input_file):
     return data_array
 
 # 生成三个随机数据集
-au=to_ndarray('output_au.csv')
-ca=to_ndarray('output_ca.csv')
-inn=to_ndarray('output_in.csv')
-uk=to_ndarray('output_uk.csv')
-us=to_ndarray('output_us.csv')
+au=to_ndarray('data/output_au.csv')
+ca=to_ndarray('data/output_ca.csv')
+inn=to_ndarray('data/output_in.csv')
+uk=to_ndarray('data/output_uk.csv')
+us=to_ndarray('data/output_us.csv')
 s_au=au.shape[0]
 s_ca=ca.shape[0]
 s_inn=inn.shape[0]
