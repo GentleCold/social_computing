@@ -1,3 +1,4 @@
+ext,est,agr,csn,opn,dateload,timestamp,screenw,screenh,introelapse,testelapse,endelapse,country,lat_appx_lots_of_err,long_appx_lots_of_err,Ladder score,upperwhisker,owerwhisker,Explained by: Log GDP per capita,Explained by: Social support,Explained by: Healthy life expectancy,Explained by: Freedom to make life choices,Explained by: Generosity,Explained by: Perceptions of corruption,Dystopia + residual
 15,15,30,24,35,2016-03-03, 02:14:11, 1920, 1080, 6, 169, 11, 1CA, 47.4596, -69.7547\n,6.9,6.984,6.815,1.84,1.459,0.701,0.73,0.23,0.368,1.572
 24,16,39,21,28,2016-03-03, 02:23:08, 360, 640, 22, 220, 16, 1CA, 42.3997, -82.1996\n,6.9,6.984,6.815,1.84,1.459,0.701,0.73,0.23,0.368,1.572
 39,33,42,40,42,2016-03-03, 03:40:05, 1366, 768, 92, 260, 15, 2CA, 46.0965, -64.7976\n,6.9,6.984,6.815,1.84,1.459,0.701,0.73,0.23,0.368,1.572
