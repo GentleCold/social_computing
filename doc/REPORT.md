@@ -72,18 +72,21 @@
 
 ### 2. 初步分析
 
-// TODO
-做了什么、具体怎么做、代码详见哪个文件
-### 数据处理，代码详见src/country_select.py,new_output_example.py
+#### 数据处理，代码详见src/country_select.py,new_output_example.py
+
 原有人格数据集有很多单个的国家数据，没有具体分析意义。country_select.py筛选出人格数据集中数量最多的五个国家进行人格数据分析。
 对两个人格与地域数据集进行分割连接，具体以Canada为例见new_output_example.py。由于国家数据集和人格数据集的国家表示格式不同只能用手动连接
-### pca降维处理，代码详见src/pca.py
+
+#### pca降维处理，代码详见src/pca.py
+
 将处理连接后的数据集进行pca降维处理后可视化展示
 
-### 因子分析，代码详见src/relief.py
+#### 因子分析，代码详见src/relief.py
+
 对数据进行因子分析聚类，得出经度（也就相当于国家）在总体人格数据集上起到最大的影响作用
 
-### 克隆巴赫系数，代码详见src/relief.py
+#### 克隆巴赫系数，代码详见src/relief.py
+
 克隆巴赫系数体现了数据内部信度一致性。
 
 #### 聚类分析，代码详见src/k-means.ipynb文件。

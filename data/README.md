@@ -17,9 +17,30 @@
 - CSN - Conscientiousness - 尽责性，指个体在目标导向行为上的组织、坚持和动机。
 - OPN - Openness to experience - 开放性，指个体对经验持开放、探求的态度。
 
-### 社会数据集（global.xlsx）
+### 社会数据集
 
-美好生活指数数据集（https://stats.oecd.org/OECDStat_Metadata/ShowMetadata.ashx?Dataset=BLI&ShowOnWeb=true&Lang=en），具体数据包括如下：
+数据集来源：https://www.oecdbetterlifeindex.org/#/11111111111
+
+良好生活指数，由经济合作与发展组织(OECD)提供，旨在综合评估不同国家在生活质量方面的表现。
+
+##### social.xls
+
+这个数据集从不同方面衡量幸福度水平，具体数据包括如下：
+
+- Country Name：国家名称
+- Ladder score：梯子分数，通常是指主观幸福感的评分，衡量一个国家的整体幸福水平。
+- upperwhisker 和 lowerwhisker：通常指的是置信区间的上限和下限，表明梯子分数的统计误差范围。
+- Explained by: Log GDP per capita：通过人均GDP的对数解释，表示经济因素对幸福感评分的贡献。
+- Explained by: Social support：通过社会支持解释，表示社会关系和支持网络对幸福感评分的贡献。
+- Explained by: Healthy life expectancy：通过健康预期寿命解释，表示健康和预期寿命对幸福感评分的贡献。
+- Explained by: Freedom to make life choices：通过自由选择生活的自由度解释，表示自由度对幸福感评分的贡献。
+- Explained by: Generosity：通过慷慨解释，表示人们的慷慨和互助对幸福感评分的贡献。
+- Explained by: Perceptions of corruption：通过对腐败感知的解释，表示对腐败的感知对幸福感评分的贡献。
+- Dystopia + residual：反乌托邦+残差，通常是指最糟糕情况下的假设分数加上模型中无法解释的部分，用于校准模型的基础评分。
+
+##### global.xlsx
+
+这个数据集包含不同国家了11个维度的指标：
 
 - 住房
   - 无基本设施的住宅（Percentage 百分比）
@@ -59,30 +80,8 @@
 
 ## 产出数据
 
-### 人格-全球数据集（person_global.csv）
-
-- country
-  - 五个国家依次为'America', 'Australia', 'Britain', 'Canada', 'India'
-- EXT - Extraversion - 外向性，指个体对外部世界的积极投入程度。
-- EST - Neuroticism - 神经质，指个体体验消极情绪的倾向。
-- AGR - Agreeableness - 宜人性，指个体在合作与社会和谐性方面的差异。
-- CSN - Conscientiousness - 尽责性，指个体在目标导向行为上的组织、坚持和动机。
-- OPN - Openness to experience - 开放性，指个体对经验持开放、探求的态度。
-- Ladder score：梯子分数，通常是指主观幸福感的评分，衡量一个国家的整体幸福水平。
-- upperwhisker 和 lowerwhisker：通常指的是置信区间的上限和下限，表明梯子分数的统计误差范围。
-- Explained by: Log GDP per capita：通过人均GDP的对数解释，表示经济因素对幸福感评分的贡献。
-- Explained by: Social support：通过社会支持解释，表示社会关系和支持网络对幸福感评分的贡献。
-- Explained by: Healthy life expectancy：通过健康预期寿命解释，表示健康和预期寿命对幸福感评分的贡献。
-- Explained by: Freedom to make life choices：通过自由选择生活的自由度解释，表示自由度对幸福感评分的贡献。
-- Explained by: Generosity：通过慷慨解释，表示人们的慷慨和互助对幸福感评分的贡献。
-- Explained by: Perceptions of corruption：通过对腐败感知的解释，表示对腐败的感知对幸福感评分的贡献。
-- Dystopia + residual：反乌托邦+残差，通常是指最糟糕情况下的假设分数加上模型中无法解释的部分，用于校准模型的基础评分。
-- 参考output数据集
-
 我们提取出来自五个国家的数据集
 
-output\_\*文件为最终数据文件，同时包含人格数据和地理数据
+output\_\*文件为中间数据文件
 
-
-
-
+进一步做数据聚合，得到产出数据在person_global.csv中，同时包含人格数据和地理数据
