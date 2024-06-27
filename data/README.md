@@ -57,6 +57,26 @@
   - 超长时间工作的雇员比例（Percentage 百分比）
   - 用于休闲和个人护理的时间（Hours 小时）
 
+### 人格-全球数据集（person_global.csv）
+- country
+  - 五个国家依次为'America', 'Australia', 'Britain', 'Canada', 'India'
+- EXT - Extraversion - 外向性，指个体对外部世界的积极投入程度。
+- EST - Neuroticism - 神经质，指个体体验消极情绪的倾向。
+- AGR - Agreeableness - 宜人性，指个体在合作与社会和谐性方面的差异。
+- CSN - Conscientiousness - 尽责性，指个体在目标导向行为上的组织、坚持和动机。
+- OPN - Openness to experience - 开放性，指个体对经验持开放、探求的态度。
+- Ladder score
+- upperwhisker
+- owerwhisker
+- Explained by: Log GDP per capita
+- Explained by: Social support
+- Explained by: Healthy life expectancy
+- Explained by: Freedom to make life choices
+- Explained by: Generosity
+- Explained by: Perceptions of corruption
+- Dystopia + residual
+- 参考output数据集
+
 ## 产出数据
 
 我们提取出来自五个国家的数据集
