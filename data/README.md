@@ -57,7 +57,10 @@
   - 超长时间工作的雇员比例（Percentage 百分比）
   - 用于休闲和个人护理的时间（Hours 小时）
 
+## 产出数据
+
 ### 人格-全球数据集（person_global.csv）
+
 - country
   - 五个国家依次为'America', 'Australia', 'Britain', 'Canada', 'India'
 - EXT - Extraversion - 外向性，指个体对外部世界的积极投入程度。
@@ -77,14 +80,10 @@
 - Dystopia + residual
 - 参考output数据集
 
-## 产出数据
-
 我们提取出来自五个国家的数据集
 
 output\_\*文件为最终数据文件，同时包含人格数据和地理数据
 
 \*\_records.csv??
-
-person_global.csv??
 
 personel-final-data.csv??
