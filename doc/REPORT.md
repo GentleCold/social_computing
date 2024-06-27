@@ -91,11 +91,14 @@
 ## 五、结果分析（通过表格、图像等直观展示。客观分析结果，解释现象）
 
 ### 1. 初步分析结果
-通过k-means聚合出的cluster分布如下，可以看出五类人格之间数量相差，以及分数相关指标，分数越低的cluster数量越少。
+
+- 通过k-means聚合出的cluster分布如下，可以看出五类人格之间数量相差，以及分数相关指标，分数越低的cluster数量越少。
 ![cluster分布](./cluster.png)
-每个cluster中五个人格维度的分数分布如下，可以从中看出cluster类别偏向指标，如cluster1类型明显看出CSN尽责性表现较低。
+
+- 每个cluster中五个人格维度的分数分布如下，可以从中看出cluster类别偏向指标，如cluster1类型明显看出CSN尽责性表现较低。
 ![k-means聚合结果](./k-means.png)
-五个cluster的集群可视化结果。
+
+- 五个cluster的集群可视化结果。
 ![PCA聚合结果](./PCA.png)
 
 
