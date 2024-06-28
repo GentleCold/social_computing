@@ -4,7 +4,9 @@
 
 ### 人格数据集（data-final.csv）
 
-这些数据是通过互动式在线性格测试收集的（2016-2018）。该人格测试是用IPIP的 "大五因子标记 "构建的。https://ipip.ori.org/newBigFive5broadKey.htm
+这些数据是通过互动式在线性格测试收集的：https://openpsychometrics.org/tests/IPIP-BFFM/
+
+该人格测试是用IPIP的 "大五因子标记 "构建的：https://ipip.ori.org/newBigFive5broadKey.htm
 
 在测试开始时，参与者被告知他们的回答将被记录并用于研究，并在测试结束时被要求确认他们的同意。
 以下项目被放在一页上，每个项目都用单选按钮进行五分制评分。
